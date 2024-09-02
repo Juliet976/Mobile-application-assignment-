@@ -1,0 +1,44 @@
+how widget do we have in flutter?
+As of Flutter 3.7 (released in May 2023), there are approximately 280-300 widgets in Flutter. This number may have increased with newer releases, including Flutter 3.8 and 3.9, which were released in 2023.
+
+In 2024, you can expect even more widgets to be added to Flutter, as the framework continues to evolve and improve. Some new widgets that might be added in 2024 include:
+
+- Improved Material 3 and Cupertino widgets
+- Enhanced layout and input widgets
+- New display and navigation widgets
+- Additional widgets for web and desktop support
+
+Here's a rough breakdown of the widgets in Flutter as of 2024:
+
+- _Layout widgets_: 40-50
+- _Input widgets_: 30-40
+- _Display widgets_: 60-70
+- _Navigation widgets_: 20-30
+- _Material and Cupertino widgets_: 80-100
+- _Other widgets_: 30-40
+
+Total: approximately 320-350 widgets
+Keep in mind that this is an estimate, and the actual number of widgets may vary depending on how you categorize them and what new widgets are added in future releases.
+
+list 20 most Used widget in flutter with their sample code?
+
+1. *Text*: `Text('Hello, World!')`
+2. *Button*: `ElevatedButton(child: Text('Click me!'))`
+3. *TextField*: `TextField(controller: TextEditingController())`
+4. *Container*: `Container(child: Text('Hello!'))`
+5. *Row*: `Row(children: [Text('Hello'), Text('World!')])`
+6. *Column*: `Column(children: [Text('Hello'), Text('World!')])`
+7. *Stack*: `Stack(children: [Text('Hello'), Text('World!')])`
+8. *ListView*: `ListView.builder(itemBuilder: (context, index) => Text('Item $index'))`
+9. *GridView*: `GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), itemBuilder: (context, index) => Text('Item $index'))`
+10. *Image*: `Image.network('(link unavailable)')`
+11. *Icon*: `Icon(Icons.star)`
+12. *Scaffold*: `Scaffold(appBar: AppBar(title: Text('Hello')), body: Text('World!'))`
+13. *AppBar*: `AppBar(title: Text('Hello'))`
+14. *Drawer*: `Drawer(child: Text('Hello!'))`
+15. *BottomNavigationBar*: `BottomNavigationBar(items: [BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home')])`
+16. *CircularProgressIndicator*: `CircularProgressIndicator()`
+17. *LinearProgressIndicator*: `LinearProgressIndicator()`
+18. *SnackBar*: `SnackBar(content: Text('Hello!'))`
+19. *Dialog*: `Dialog(child: Text('Hello!'))`
+20. *FutureBuilder*: `FutureBuilder(builder: (context,
